@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<link rel="stylesheet" href="/css/programReg.css">
+
+<th:block th:replace="~{./include/baseLayout :: setContent(~{ :: .wrap})}">
+
+	 
+	 <section class="wrap">
+	<div class="reg-title">
+	<p>물품 등록하기</p>
+	</div>
+		<form action="istrRegForm" method="post" name="quote">
+			<div class="reg-content">
+			<div>
+			<p>물품명</p>
+			<div>
+			<input type="text" placeholder="ISTR_NM" name="ISTR_NM" required="required">
+			</div>
+			</div>
+			<div>
+			<p>물품수량</p>
+			<div>
+			<input type="number" placeholder="ISTR_QTY" name="ISTR_QTY" required="required">
+			</div>
+			</div>
+			<div>
+			<p>물품코드(자동생성)</p>
+			<div>
+			<input type="text" placeholder="ISTR_CODE" class="istrCode" readonly="readonly" value="" name="ISTR_CODE">
+			</div>
+			</div>
+		</div>
+
+			<div class="reg-button">
+			<input type="submit" class="reg" value="등록">
+			<button type="button" value="닫기" id="closeBtn" class="list">닫기</button>
+			</div>
+		</form>
+	</section>	
+	 
+</html>
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		var rng=Math.random().toString(36).substring(2,8).toUpperCase().toString();
+		$(".istrCode").attr("value",rng);
+		
+		$("#closeBtn").click(function(){
+			location.href="/admin/program/main";
+		});
+	
+		
+	</script>
+</html>
