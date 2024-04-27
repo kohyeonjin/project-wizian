@@ -35,6 +35,11 @@
 
 상세페이지
 ------------
+
+### 메인페이지
+![image](https://github.com/kohyeonjin/project-wizian/assets/154486596/5a1b03d2-d15a-4d98-a600-072abe5195d3)
+
+
 ### 프로그램 리스트
 ![image](https://github.com/kohyeonjin/project-wizian/assets/154486596/b8edd8e2-c882-4788-af96-8202e906a048)
 - 총 게시글 수 확인 가능
