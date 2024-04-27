@@ -37,7 +37,7 @@
 ------------
 
 ### 메인페이지
-![image](https://github.com/kohyeonjin/project-wizian/assets/154486596/5a1b03d2-d15a-4d98-a600-072abe5195d3)
+![image](https://github.com/kohyeonjin/project-wizian/assets/154486596/5a1b03d2-d15a-4d98-a600-072abe5195d3
 
 
 ### 프로그램 리스트
